@@ -16,6 +16,8 @@ GNOME Shell Gestures (OS X-like)
 	* **Shift+Ctrl+Alt+I** should run hide_overview.sh
 	* **Shift+Ctrl+Alt+O** should run show_applications.sh
 	* **Shift+Ctrl+Alt+P** should run hide_applications.sh
+	* **LaunchA** (F3) should run toggle_overview.sh
+	* **LaunchB** (F4) should run toggle_applications.sh
 4. Make sure TouchEgg starts on startup:
 	```
     echo "touchegg &" >> ~/.xprofile
